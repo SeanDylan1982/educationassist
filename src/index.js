@@ -2,15 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import MyApp from './App';
-import ImageMasonry from './masonry';
-// import { Masonry } from '@mui/lab';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <MyApp />
-    <ImageMasonry />
   </React.StrictMode>
 );
 
