@@ -9,7 +9,6 @@ import CustomizedSteppers from './progress';
 import "./index.css";
 import "./App.css";
 import Login from "./login";
-import "./styles.js";
 
 export default function MyApp() {
   return (
