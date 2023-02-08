@@ -9,7 +9,6 @@ import CustomizedSteppers from './progress';
 import "./index.css";
 import "./App.css";
 import Login from "./login";
-import MediaControlCard from './media'
 
 export default function MyApp() {
   return (
