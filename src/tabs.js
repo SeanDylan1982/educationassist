@@ -6,6 +6,8 @@ import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import ImageMasonry from './masonry';
 import Card from './card';
+import MediaControlCard from "./media";
+
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -63,7 +65,7 @@ export default function BasicTabs() {
         <Card />
       </TabPanel>
       <TabPanel value={value} index={2}>
-        Item Three
+        <MediaControlCard />
       </TabPanel>
     </Box>
   );
