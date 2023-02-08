@@ -16,7 +16,7 @@ const Label = styled(Paper)(({ theme }) => ({
 
 export default function ImageMasonry() {
   return (
-    <Box sx={{ width: 500, minHeight: 829 }}>
+    <Box sx={{ width: 700, minHeight: 829, display: '-ms-flexbox', justifyContent: "center" }}>
       <Masonry columns={3} spacing={2}>
         {itemData.map((item, index) => (
           <div key={index}>
@@ -27,6 +27,10 @@ export default function ImageMasonry() {
               alt={item.title}
               loading="lazy"
               style={{
+                position: "relative",
+                maxWidth: 500,
+                maxHeight: 500,
+                marginTop: 10,
                 borderBottomLeftRadius: 4,
                 borderBottomRightRadius: 4,
                 display: 'flex',

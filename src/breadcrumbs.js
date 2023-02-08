@@ -10,7 +10,7 @@ function handleClick(event) {
 export default function ActiveLastBreadcrumb() {
   return (
     <div role="presentation" onClick={handleClick}>
-      <Breadcrumbs aria-label="breadcrumb">
+      <Breadcrumbs aria-label="breadcrumb" sx={{ position: 'fixed', top: 75, left: 25, mt: 2 }}>
         <Link underline="hover" color="inherit" href="/">
           MUI
         </Link>
