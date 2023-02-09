@@ -10,7 +10,7 @@ import "./index.css";
 import "./App.css";
 import Login from "./login";
 
-export default function MyApp() {
+export default function App() {
   return (
     <React.Fragment>
       <CssBaseline />
