@@ -8,7 +8,6 @@ import ImageMasonry from './masonry';
 import Card from './card';
 import MediaControlCard from "./media";
 
-
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
 
